@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sample Page — Headings, Paragraphs & Clickable Image</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+          sans-serif;
+        line-height: 1.6;
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+      header {
+        margin-bottom: 1.5rem;
+      }
+      img {
+        max-width: 200px;
+        height: auto;
+        display: block;
+      }
+      .image-link {
+        margin: 1rem 0;
+      }
+    </style>
   </head>
   <body>
-    <p>hey</p>
-    <p>hey</p>
-    <p>hey</p>
-    <p>hey</p>
-    <h1>hello</h1>
-    <h2>hello</h2>
-    <h3>hello</h3>
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" />
+    <header>
+      <h1>Welcome to the Sample Page</h1>
+      <h2>A Demonstration of HTML Structure</h2>
+      <h3>Clickable Image and Content Blocks</h3>
+    </header>
+
+    <p>
+      This is the first paragraph. It introduces the purpose of the page and
+      gives a quick overview of the elements used: headings, paragraphs, and a
+      clickable image.
+    </p>
+
+    <p>
+      This is the second paragraph. You can use paragraphs like this to explain
+      features, give instructions, or tell a short story — whatever you need for
+      your page.
+    </p>
+
+    <p class="image-link">
+      Click the image below to go to the ALX website. The image is wrapped in an
+      anchor so it's fully clickable.
+    </p>
+
+    <a
+      href="https://www.alxafrica.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png"
+        alt="ALX logo — click to visit ALX"
+      />
+    </a>
+
+    <p>
+      This is the third paragraph. It comes after the image and can contain a
+      caption, extra context about the link, or other details you want visitors
+      to know.
+    </p>
+
+    <p>
+      This is the fourth paragraph. It wraps up the content and provides a
+      closing thought or call-to-action.
+    </p>
   </body>
 </html>
